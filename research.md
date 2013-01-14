@@ -93,6 +93,7 @@ Testing tools
 -------------
 
 * [www.magespeedtest.com](www.magespeedtest.com)
+* pingdom transaction monitor: https://www.pingdom.com/transactionmonitor/
 
 Guidelines for us
 -----------------
