@@ -69,6 +69,7 @@ Memcached
 * Right now we have only 1 instance of memcached running. We need 2. One holds only the sessions, and other one holds the usual cached stuff.
 	* Important because memcached can be cleared from magento admin and we don't want current sessions being thrown out of the window.
 	* Also gives us the ability to refresh memcached at will, without worrying about killing current sessions.
+	* Also storing sessions in `tmpfs` filesystem is fastest [http://magebase.com/magento-tutorials/magento-session-storage-which-to-choose-and-why/](http://magebase.com/magento-tutorials/magento-session-storage-which-to-choose-and-why/)
 * `@TODO` Need to research on 2 level cache in Magento (thanks Zend!)
 	* Its limitation - http://www.fabrizio-branca.de/magento-zend-frameworks-twolevels-cache-backend-mess.html
 	* A patch to improve it? - https://gist.github.com/1262502
