@@ -73,13 +73,14 @@ Memcached
 * `@TODO` Need to research on 2 level cache in Magento (thanks Zend!)
 	* Its limitation - http://www.fabrizio-branca.de/magento-zend-frameworks-twolevels-cache-backend-mess.html
 	* A patch to improve it? - https://gist.github.com/1262502
-	* Explanation of the 2 levels (slow/fast) and the option of disabling the slow all together if you have enough RAM: http://www.byte.nl/blog/speeding-up-magento-the-burden-of-two-level-cache/
+	* Trying to disable "slow" cache which is not a good idea: http://www.byte.nl/blog/speeding-up-magento-the-burden-of-two-level-cache/
 
 Varnish
 -------
 
 * Forgot the exact need but we would require to write some Varnish config file code (which is a language in itself - `VCL`)
 	* `@TODO` Update this!
+	* research 
 
 
 MySQL optimizations
