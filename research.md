@@ -73,6 +73,7 @@ Memcached
 * `@TODO` Need to research on 2 level cache in Magento (thanks Zend!)
 	* Its limitation - http://www.fabrizio-branca.de/magento-zend-frameworks-twolevels-cache-backend-mess.html
 	* A patch to improve it? - https://gist.github.com/1262502
+	* Explanation of the 2 levels (slow/fast) and the option of disabling the slow all together if you have enough RAM: http://www.byte.nl/blog/speeding-up-magento-the-burden-of-two-level-cache/
 
 Varnish
 -------
